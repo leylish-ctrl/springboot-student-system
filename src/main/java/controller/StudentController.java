@@ -52,4 +52,16 @@ public class StudentController {
         students.removeIf(student -> student.getId().equals(id));
         return "Student deleted";
     }
+
+    @PutMapping("/students/{id}")
+    public Student updateStudent(@PathVariable Long id, @RequestBody Student updatedStudent) {
+        for (Student student : students) {
+            if (student.getId().equals(id)) {
+                student.setName(updatedStudent.getName());
+                student.setEmail(updatedStudent.getEmail());
+                return student;
+            }
+        }
+        return null;
+    }
 }
