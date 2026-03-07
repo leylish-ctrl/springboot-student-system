@@ -46,4 +46,10 @@ public class StudentController {
         students.add(student);
         return student;
     }
+
+    @DeleteMapping("/students/{id}")
+    public String deleteStudent(@PathVariable Long id) {
+        students.removeIf(student -> student.getId().equals(id));
+        return "Student deleted";
+    }
 }
