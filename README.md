@@ -24,7 +24,7 @@ DELETE /students/{id} → Delete student
 Expected output: API is healthy
 
 ## Deployment
-Railway deployment link will be added here.
+Deployment link: https://springboot-student-system.onrender.com/status
 
 ## Database Structure
 Student table:
