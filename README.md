@@ -27,10 +27,10 @@ Expected output: API is healthy
 Deployment link: https://springboot-student-system.onrender.com/status
 
 ## Database Structure
+![Database Structure](database-structure.png)
 Student table:
 id  
 name  
 email
-
 ## AI Usage
 AI usage is declared in the AI_USAGE.md file.
