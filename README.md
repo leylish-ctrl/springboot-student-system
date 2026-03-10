@@ -28,6 +28,7 @@ Deployment link: https://springboot-student-system.onrender.com/status
 
 ## Database Structure
 ![Database Structure](database-structure.png)
+
 Student table:
 id  
 name  
